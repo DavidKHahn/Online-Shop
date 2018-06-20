@@ -10,13 +10,13 @@ Created an API with GET, POST, DELETE, PATCH requests to track id, name, price, 
 
 :coffee:
 
--**Nodemon** - "nodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application."
+**-Nodemon** - "nodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application."
 
--**Body-Parser** - "Parse incoming request bodies in a middleware before your handlers, available under the req.body property."
+**-Body-Parser** - "Parse incoming request bodies in a middleware before your handlers, available under the req.body property."
 
--**Morgan** - "HTTP request logger middleware for node.js."
+**-Morgan** - "HTTP request logger middleware for node.js."
 
--**Express.js** - Node web framework used for APIs and server connections.
+**-Express.js** - Node web framework used for APIs and server connections.
 
--**Mongoose.js** - "Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box (courtesy of [mongoose.js](www.mongoose.js.com))."
+**-Mongoose.js** - "Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box (courtesy of [mongoose.js](www.mongoose.js.com))."
 
