@@ -17,6 +17,8 @@ mongoose.connect('mongodb+srv://dhahn123:' + process.env.MONGO_ATLAS_PW + '@clus
 });// CONNECTING TO MONGODB v. 3.6
 
 app.use(morgan('dev'));
+//having'/uploads' in front of express.static will allow more specific URL destination
+app.use('/uploads', express.static('uploads'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
