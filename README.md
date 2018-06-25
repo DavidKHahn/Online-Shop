@@ -26,5 +26,4 @@ The following definitions in quotes below are provided from [npm.js](https://www
 
 **-Bcrypt** - NPM package used to encrypt passwords in DB using hash and salt variations.
 
-**-JSON web token** - 
-
+**-JSON web token** - NPM package used to send data to client in order to identify previous login.
