@@ -2,7 +2,7 @@
 
 :coffee:
 
-**Node.js, Mongo DB(Atlas), Mongoose, RESTful API, Postman, Express.js, Nodemon, Body-Parser, Morgan**
+**Node.js, Mongo DB(Atlas), Mongoose, RESTful API, Postman, Express.js, Nodemon, Body-Parser, Morgan, Multer, Bcrypt**
 
 :coffee:
 
@@ -19,4 +19,8 @@ Created an API with GET, POST, DELETE, PATCH requests to track id, name, price, 
 **-Express.js** - Node web framework used for APIs and server connections.
 
 **-Mongoose.js** - "Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box (courtesy of [mongoose.js](www.mongoose.js.com))."
+
+**-Multer** - Used to store images into Mongo DB and also to get images
+
+**-Bcrypt** - NPM package used to encrypt passwords in DB using hash and salt variations.
 
