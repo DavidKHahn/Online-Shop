@@ -1,12 +1,13 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
+const checkAuth = require('../authentication/check-auth');
 
 const Order = require('../models/orders');
 const Product = require('../models/product');
 
 //Handle incoming GET requests to /orders
-router.get('/', (req, res, next) => {
+router.get('/', checkAuth, (req, res, next) => {
     Order
     .find()
     .select('product quantity _id')
@@ -36,7 +37,7 @@ router.get('/', (req, res, next) => {
     });
 });
 
-router.post('/', (req, res, next) => {
+router.post('/', checkAuth, (req, res, next) => {
     Product.findById(req.body.productId)
     .then(product =>{
         if (!product) {
@@ -76,7 +77,7 @@ router.post('/', (req, res, next) => {
 });
 
 
-router.get('/:orderId', (req, res, next) => {
+router.get('/:orderId', checkAuth, (req, res, next) => {
   Order.findById(req.params.orderId)
   //notice the removal of 'name' which allows extra info to be viewed individually
   .populate('product')
@@ -103,7 +104,7 @@ router.get('/:orderId', (req, res, next) => {
     });
  });
 
-router.delete('/:orderId', (req, res, next) => {
+router.delete('/:orderId', checkAuth, (req, res, next) => {
 Order.findOneAndRemove({_id: req.params.orderId})
 .exec()
 .then(result => {
