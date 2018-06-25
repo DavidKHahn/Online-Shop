@@ -1,4 +1,4 @@
-# rebuilding-backend (online store with requests using stateless server through RESTful API)
+# rebuilding-backend
 
 :coffee:
 
