@@ -1,4 +1,4 @@
-# rebuilding-backend
+# rebuilding-backend (online store with requests using stateless server through RESTful API)
 
 :coffee:
 
@@ -6,7 +6,7 @@
 
 :coffee:
 
-Rebuilding-backend is a project depicting the system framework for product data-tracking and also ability to store user accounts into Mongo DB while using Node.js to set-up the framework for routes.  A RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, quantity, description, images and link' for each product/order stored in the DB. APIs were tested using Postman, NPM Multer was used to allow images to be uploaded into the DB as well as GET and NPM Bcrypt was used to encrypt user passwords (hash and salt) into the DB.  JWT (jsonwebtoken) was used so client can access protected data without the server having to store any information connected to clients (stateless authentication implemented by json web token).
+Rebuilding-backend is a project depicting the system framework for product data-tracking and also ability to store user accounts into Mongo DB while using Node.js to set-up the framework for routes.  A RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, quantity, description, images and link' for each product/order stored in the DB. APIs were tested using Postman, NPM Multer was used to allow images to be uploaded into the DB as well as GET and NPM Bcrypt was used to encrypt user passwords (hash and salt) into the DB.  JWT (jsonwebtoken) was used so client can access protected data without the server having to store any information connected to clients (stateless authentication implemented by json web token).  Controllers are added to clean up the routes files.
 
 The following definitions in quotes below are provided from [npm.js](https://www.npmjs.com/) :
 
