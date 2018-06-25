@@ -6,7 +6,7 @@
 
 :coffee:
 
-Rebuilding-backend is a project depicting the system framework for product data-tracking and also ability to store user accounts into Mongo DB while using Node.js to set-up the framework for routes.  A RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, quantity, description, images and link' for each product/order stored in the DB. APIs were tested using Postman, NPM Multer was used to allow images to be uploaded into the DB as well as GET and NPM Bcrypt was used to encrypt user passwords (hash and salt) into the DB.
+Rebuilding-backend is a project depicting the system framework for product data-tracking and also ability to store user accounts into Mongo DB while using Node.js to set-up the framework for routes.  A RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, quantity, description, images and link' for each product/order stored in the DB. APIs were tested using Postman, NPM Multer was used to allow images to be uploaded into the DB as well as GET and NPM Bcrypt was used to encrypt user passwords (hash and salt) into the DB.  JWT (jsonwebtoken) was used so client can access protected data without the server having to store any information connected to clients (stateless authentication implemented by json web token).
 
 The following definitions in quotes below are provided from [npm.js](https://www.npmjs.com/) :
 
@@ -26,4 +26,4 @@ The following definitions in quotes below are provided from [npm.js](https://www
 
 **-Bcrypt** - NPM package used to encrypt passwords in DB using hash and salt variations.
 
-**-JSON web token** - NPM package used to send data to client in order to identify previous login.
+**-JSON web token** - NPM package used to send client encoded data in order to identify login with the server.
