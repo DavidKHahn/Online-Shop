@@ -6,7 +6,9 @@
 
 :coffee:
 
-Created an API with GET, POST, DELETE, PATCH requests to track id, name, price, quantity, description and link for each data stored in Mongo Atlas Cloud DB.  Using Postman to test API requests from localhost, Node.js to create server routes for orders and products and NPM packages (the following definitions below are provided from [npm.js](https://www.npmjs.com/):
+Rebuilding-backend is a project depicting the system framework for product data-tracking and also ability to store user accounts into Mongo DB while using Node.js to set-up the framework for routes.  A RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, quantity, description, images and link' for each product/order stored in the DB. APIs were tested using Postman, NPM Multer was used to allow images to be uploaded into the DB as well as GET and NPM Bcrypt was used to encrypt user passwords (hash and salt) into the DB.
+
+The following definitions in quotes below are provided from [npm.js](https://www.npmjs.com/) :
 
 :coffee:
 
