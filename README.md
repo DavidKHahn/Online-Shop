@@ -2,7 +2,7 @@
 
 :coffee:
 
-**Node.js, Mongo DB(Atlas), Mongoose, RESTful API, Postman, Express.js, Nodemon, Body-Parser, Morgan, Multer, Bcrypt**
+**Node.js, Mongo DB(Atlas), Mongoose, RESTful API, Postman, Express.js, Nodemon, Body-Parser, Morgan, Multer, Bcrypt, JSON web token**
 
 :coffee:
 
@@ -25,4 +25,6 @@ The following definitions in quotes below are provided from [npm.js](https://www
 **-Multer** - Used to store images into Mongo DB and also to get images
 
 **-Bcrypt** - NPM package used to encrypt passwords in DB using hash and salt variations.
+
+**-JSON web token** - 
 
