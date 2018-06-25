@@ -2,11 +2,13 @@
 
 :coffee:
 
-**Node.js, Mongo DB(Atlas), Mongoose, RESTful API, Postman, Express.js, Nodemon, Body-Parser, Morgan**
+**Node.js, Mongo DB(Atlas), Mongoose, RESTful API, Postman, Express.js, Nodemon, Body-Parser, Morgan, Multer, Bcrypt**
 
 :coffee:
 
-Created an API with GET, POST, DELETE, PATCH requests to track id, name, price, quantity, description and link for each data stored in Mongo Atlas Cloud DB.  Using Postman to test API requests from localhost, Node.js to create server routes for orders and products and NPM packages (the following definitions below are provided from [npm.js](https://www.npmjs.com/):
+Rebuilding-backend is a project depicting the system framework for product data-tracking and also ability to store user accounts into Mongo DB while using Node.js to set-up the framework for routes.  A RESTful API was created for GET, POST, DELETE, PATCH requests containing 'id, name, price, quantity, description, images and link' for each product/order stored in the DB. APIs were tested using Postman, NPM Multer was used to allow images to be uploaded into the DB as well as GET and NPM Bcrypt was used to encrypt user passwords (hash and salt) into the DB.
+
+The following definitions in quotes below are provided from [npm.js](https://www.npmjs.com/) :
 
 :coffee:
 
@@ -19,4 +21,8 @@ Created an API with GET, POST, DELETE, PATCH requests to track id, name, price, 
 **-Express.js** - Node web framework used for APIs and server connections.
 
 **-Mongoose.js** - "Mongoose provides a straight-forward, schema-based solution to model your application data. It includes built-in type casting, validation, query building, business logic hooks and more, out of the box (courtesy of [mongoose.js](www.mongoose.js.com))."
+
+**-Multer** - Used to store images into Mongo DB and also to get images
+
+**-Bcrypt** - NPM package used to encrypt passwords in DB using hash and salt variations.
 
