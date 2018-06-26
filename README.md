@@ -1,4 +1,4 @@
-# rebuilding-backend
+# Online-Shop (backend framework project)
 
 :coffee:
 
